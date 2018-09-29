@@ -1,0 +1,128 @@
+*{margin:0;padding:0;font-family:'opensans_regular'}
+h1,h2,h3,h4,h5,h6,p{margin:0;padding:0}
+.home_container{width:100%;height:auto;float:left;background:url(../images/bg1.png) left top no-repeat,url(../images/1.png) right -30px top 150px no-repeat #e8f1fa}
+.nav.navbar-nav li{float:left;color:#241f23;margin-right:60px}
+.nav.navbar-nav li a,.nav.navbar-nav li a:link,.nav.navbar-nav li a:visited{color:#241f23;font:18px/21px opensans_bold;position:relative;padding:10px 25px}
+.nav.navbar-nav li a:last-of-type{margin-right:0}
+.nav.navbar-nav li.active a{text-transform:uppercase}
+.nav.navbar-nav li a:hover,.nav.navbar-nav li a:focus{background-color:transparent}
+.navbar{margin-top:70px}
+.navbar-toggle .icon-bar{background:#282828}
+.nav.navbar-nav li.active a:after{width:100%;height:16px;position:absolute;content:'';bottom:-10px;left:0;background:url(../images/menu-hover.png) left top no-repeat}
+.navbar-brand{height:auto}
+h1.fitness_heading{width:100%;height:auto;float:left;color:#fff;font:51px/55px opensans_bold;text-transform:uppercase;margin-top:40px}
+h1.fitness_heading span{color:#abc637;font:51px/55px opensans_bold}
+a.book_trail_link,a.book_trail_link:link,a.book_trail_link:visited{width:auto;height:60px;float:left;background:#eef2fb;padding:0 20px;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;-ms-border-radius:50px;-o-border-radius:50px;overflow:hidden;color:#21211f;font:27px/60px opensans_bold;text-transform:uppercase;margin:30px 0 60px}
+h2.first_fitness_heading{width:100%;height:auto;float:left;color:#fff;font:31px/41px opensans_bold;text-transform:uppercase}
+p.functional_text{width:100%;height:auto;float:left;color:#fff;font:21px/28px opensans_light}
+h4.classes_heading{width:100%;height:auto;float:left;color:#fff;font:18px/21px opensans_bold;text-transform:uppercase;margin:20px 0}
+.functional_text_outer{width:100%;height:auto;float:left}
+h2.inevitable_heading{width:100%;height:auto;float:left;color:#212121;font:88px/96px opensans_extrabold;text-transform:uppercase;text-align:right;margin-top:75px;letter-spacing:4px;margin-bottom:55px}
+h2.inevitable_heading span{color:#abc637;font:88px/96px opensans_extrabold;letter-spacing:5px;display:inline-block}
+.adapt_content{width:100%;height:auto;min-height:1250px;float:left;background:url(../images/2.png) left -40px top no-repeat,url(../images/bg2.png) right -30px top -10px no-repeat #e8f1fa;padding-bottom:330px;position:relative}
+.adapt_content h1.fitness_heading{text-align:right;margin-top:260px}
+.teamwork_outer{width:500px;height:auto;float:left;position:absolute;bottom:10px;left:30px}
+.teamwork_outer h1.fitness_heading{margin:0 0 10px}
+.teamwork_outer h1.fitness_heading,.teamwork_outer p.functional_text{text-align:left;color:#21211f}
+.juice_outer{width:100%;height:auto;float:left;padding:60px;background:#b4d234}
+ul.juice_list{width:100%;height:auto;float:left;list-style-type:none}
+ul.juice_list li{width:17%;height:auto;min-height:210px;float:left;border:30px solid #90a628;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;color:#fff;font:29px/32px opensans_bold;text-transform:uppercase;padding:5px;margin-right:3%;text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
+ul.juice_list li:last-of-type{margin-right:0}
+footer{width:100%;height:auto;float:left;background:#313332;border-bottom:30px solid #e8f1fa;padding:30px 0 60px}
+h5.footer_heading{width:100%;height:auto;float:left;color:#fff;font:25px/31px opensans_extrabold;text-transform:uppercase;margin:0 0 10px}
+p.about_footer_text{width:100%;height:auto;float:left;color:#fff;font:14px/21px opensans_light}
+ul.quick_link_list{width:100%;max-width:230px;height:auto;float:left;list-style-type:none}
+ul.quick_link_list li{width:100%;height:auto;float:left;border-bottom:1px solid #6c6c6c;color:#fff;font:14px/21px opensans_light;text-transform:uppercase;padding:5px 0 5px 20px;background:url(../images/footer-list.png) left center no-repeat}
+span.touch_section{width:100%;height:auto;float:left;color:#fff;font:14px/21px opensans_light;padding:0 0 0 35px;margin-bottom:12px}
+span.touch_section a,span.touch_section a:link,span.touch_section a:visited{display:inline-block;color:#fff;font:14px/21px opensans_light}
+span.touch_section:last-of-type{margin:0}
+#touch_icon1{background:url(../images/touch-icon1.png) left center no-repeat}
+#touch_icon2{background:url(../images/touch-icon2.png) left center no-repeat}
+#touch_icon3{background:url(../images/touch-icon3.png) left center no-repeat}
+
+/* Registration Page */
+.inner_container{width:100%;height:auto;float:left;background:url(../images/bg3.png) right top no-repeat #e8f1fa}
+h3.gym_regist_heading{width:100%;height:auto;float:left;color:#282828;font:25px/31px opensans_extrabold;margin-bottom:10px;text-align:center}
+p.gym_regist_text{width:100%;height:auto;float:left;color:#282828;font:15px/21px opensans_regular;margin-bottom:20px;text-align:center}
+.registration_section{width:100%;height:auto;float:left;background:#fff;padding:20px;margin:30px 0 50px;-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,.1);-moz-box-shadow:0 0 10px 0 rgba(0,0,0,.1);box-shadow:0 0 10px 0 rgba(0,0,0,.1);-ms-box-shadow:0 0 10px 0 rgba(0,0,0,.1);-o-box-shadow:0 0 10px 0 rgba(0,0,0,.1)}
+button.reg_apply{width:auto;height:51px;display:inline-block;background:#b4d234;padding:0 40px;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;-ms-border-radius:50px;-o-border-radius:50px;overflow:hidden;color:#282828;font:22px/51px opensans_bold;text-transform:uppercase;margin:10px 0 0;border:0;outline:0}
+button.reg_apply:hover,button.reg_apply:focus { text-decoration: none; background:#a8c52a; }
+
+/* Login Page */
+.registration_section.login_section { margin:10px 0 70px 0; }
+
+/* Plan Page */
+.plan_outer{width:100%;height:auto;float:left;border:1px solid #ccc;background:#f1f1f1}
+.plan_header{width:100%;height:auto;float:left;border-bottom:1px solid #ccc;background:#f1f1f1;color:#282828;font:25px/31px opensans_bold;padding:30px;text-align:center}
+.plan_content{width:100%;height:auto;float:left;background:#fff;padding:30px}
+.plan_footer{width:100%;height:auto;float:left;border-top:1px solid #ccc;background:#f1f1f1;padding:10px 30px;text-align:center}
+a.reg_apply,a.reg_apply:link,a.reg_apply:visited{width:auto;height:51px;display:inline-block;background:#b4d234;padding:0 40px;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;-ms-border-radius:50px;-o-border-radius:50px;overflow:hidden;color:#282828;font:22px/51px opensans_bold;text-transform:uppercase;margin:10px 0 0;border:0;outline:0}
+a.reg_apply:hover,a.reg_apply:focus { text-decoration: none; background:#a8c52a; }
+h5.plan_per_year{width:100%;height:auto;float:left;color:#282828;font:28px/31px opensans_regular;text-align:center}
+p.plan_ideal{width:100%;height:auto;float:left;color:#282828;font:18px/21px opensans_light;margin-top:10px;text-align:center}
+
+/* About Us */
+.about_section{width:100%;height:auto;float:left;margin:70px 0 50px}
+h3.adapt_heading{width:100%;height:auto;float:left;color:#282828;font:29px/32px opensans_extrabold;text-transform:uppercase}
+p.adapt_text{width:100%;height:auto;float:left;color:#282828;font:18px/21px opensans_light;margin-top:10px;padding:20px;position:relative}
+p.adapt_text:nth-of-type(2n+1){background:#b4d234;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;-ms-border-radius:30px;-o-border-radius:30px}
+.about_reg{width:100%;height:1823px;float:left;background:url(../images/about-bg.png) center 0/cover no-repeat}
+.inner_container2{width:100%;height:auto;float:left;background:url(../images/bg3.png) right top no-repeat #eff4fa;position:relative}
+a.about_reg_link,a.about_reg_link:link,a.about_reg_link:visited{width:auto;height:60px;float:left;background:#21211f;padding:0 30px;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;-ms-border-radius:50px;-o-border-radius:50px;overflow:hidden;color:#fff;font:27px/60px opensans_bold;text-transform:uppercase;position:absolute;bottom:100px;right:100px}
+a.about_reg_link:hover,a.about_reg_link:focus{text-decoration:none}
+
+/* Contact Us */
+.contact_reg{width:100%;height:1183px;float:left;background:url(../images/contact-bg.png) center 0/cover no-repeat}
+h1.touch_heading{width:100%;height:auto;float:left;color:#282828;font:51px/61px opensans_extrabold;text-transform:uppercase;text-align:center;margin-bottom:30px}
+ul.get_touch_list{width:100%;height:auto;float:left;list-style-type:none}
+ul.get_touch_list li{width:100%;height:auto;float:left;margin-bottom:40px}
+ul.get_touch_list li:last-of-type{margin-bottom:0}
+ul.get_touch_list li figure{width:100%;height:auto;float:left;text-align:center;margin-bottom:10px}
+ul.get_touch_list li p{width:100%;height:auto;float:left;text-align:center;color:#282828;font:18px/21px opensans_light}
+.sign_up_content{width:100%;height:auto;float:left;padding:20px 50px}
+form.sign_up_form{width:100%;height:auto;float:left;background:#fff;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;-ms-border-radius:50px;-o-border-radius:50px;overflow:hidden}
+form.sign_up_form .row > div{padding:0}
+.sign_up_left{width:100%;height:670px;float:left;background:url(../images/sign-form.png) center 0/cover no-repeat}
+.sign_up_right {width:100%;height:auto;float:left; padding:107px 100px;}
+.sign_reg_btn{width:auto;height:60px;display:inline-block;background:#b4d234;padding:0 30px;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;-ms-border-radius:50px;-o-border-radius:50px;overflow:hidden;color:#fff;font:27px/60px opensans_bold;border:0;outline:0;margin:40px 0 0}
+.sign_reg_btn:hover,.sign_reg_btn:focus{text-decoration:none}
+h2.sign_up_heading{width:100%;height:auto;float:left;text-align:center;color:#b4d234;font:45px/51px opensans_extrabold;text-transform:uppercase;margin-bottom:30px}
+ul.quar_list{width:100%;height:auto;float:left}
+ul.quar_list li{width:auto;height:37px;display:inline-block;background:#b4d234;padding:0 20px;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;-ms-border-radius:50px;-o-border-radius:50px;overflow:hidden;color:#fff;font:18px/37px opensans_bold;margin-right:8px}
+ul.quar_list li:last-of-type{margin-right:0}
+
+
+
+
+@font-face {
+    font-family: 'opensans_light';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+
+}
+@font-face {
+    font-family: 'opensans_extrabolditalic';
+    src: url('../fonts/opensans-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+
+}
+@font-face {
+    font-family: 'opensans_extrabold';
+    src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family: 'opensans_regular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family: 'opensans_bold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
